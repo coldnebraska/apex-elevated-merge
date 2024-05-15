@@ -1,11 +1,10 @@
 :root {
-  --main-bg-color: white;
-  --dark-color: #E0592A;
-  --important-text: rgb(237, 109, 40);
+  --important-text: #E0592A;
 }
 
 body {
-  background-color: var(--main-bg-color);
+  background-color: black;
+  color: white;
 }
 
 #root {
@@ -20,11 +19,9 @@ body {
 
 /* *Header */
 .header {
-  background-color: black;
   display: flex;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid var(--dark-color);
 }
 
 .apex-logo,
@@ -53,7 +50,7 @@ nav a:hover {
 }
 
 .active {
-  color: var(--dark-color);
+  color: var(--important-text);
 }
 /* *End of header */
 
@@ -61,7 +58,8 @@ nav a:hover {
 .services-nav {
   display: flex;
   height: 900px;
-  background-color: black;
+  border-top: 1px solid var(--important-text);
+  border-bottom: 1px solid var(--important-text);
 }
 
 .service-img {
@@ -84,7 +82,6 @@ nav a:hover {
 }
 
 .service-img h1 {
-  color: white;
   font-size: 75px;
   position: absolute;
   top: 50%;
@@ -98,14 +95,63 @@ nav a:hover {
 }
 /* *End of services display */
 
+/* *Homepage */
+#highlight {
+  color: var(--important-text);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 75%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.about-text {
+  position: relative;
+}
+
+#shadow {
+  position: relative;
+  top: 0;
+  transform: translateY(50%);
+  color: rgb(132, 132, 132);
+  font-size: 200px;
+  opacity: .1;
+  margin-top: -40%;
+}
+
+.about h1 {
+  font-size: 50px;
+}
+
+.homepage-about-img {
+  position: relative;
+}
+
+#about-logo {
+  height: 500px;
+  width: 700px;
+}
+
+#logo-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 400px;
+}
+/* *End of homepage */
+
 /* *Footer */
 .footer {
   width: 100%;
-  background-color: black;
-  color: white;
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
+  border-top: 1px solid var(--important-text);
 }
 
 .footer img {
@@ -121,7 +167,7 @@ nav a:hover {
 }
 
 .footer-col {
-  width: 15%;
+  width: 20%;
 }
 
 .footer-col h4{
