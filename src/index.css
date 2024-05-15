@@ -20,24 +20,17 @@ body {
 
 /* *Header */
 .header {
+  background-color: black;
   display: flex;
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid var(--dark-color);
 }
 
-.apex-logo {
-  width: 216px;
-  height: 80px;
-  transition: .5s;
-  padding-right: 10px;
-}
-
+.apex-logo,
 .elevated-logo {
   width: 216px;
   height: 80px;
-  padding: 10px;
-  background-color: black;
 }
 
 nav {
@@ -52,7 +45,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 nav a:hover {
