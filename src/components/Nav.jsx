@@ -1,42 +1,82 @@
 // Bringing in the required import from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import Navbar from './UI/Navbar'
-import headerImg from '../assets/images/header.png'
+import apexLogo from '../assets/images/apex_logo.png'
+import elevatedLogo from '../assets/images/elevated_logo.png'
 
 export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
     <div className='header'>
-      <img src={headerImg} id='header-img' />
+        <a href='/apex'>
+          <img src={apexLogo} className='apex-logo' />
+        </a>
+
       <Navbar
-        links={[
-          <NavLink key={1} to="/" className={({ isActive, isPending }) => 
+        apexLinks={[
+          <NavLink key={1} to="/apex" end className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
             Home
           </NavLink>,
-          <NavLink key={3} to="/camp" className={({ isActive, isPending }) => 
+          <NavLink key={3} to="/apex/services" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
-            Camp
+            Services+
           </NavLink>,
-          <NavLink key={4} to="/preschool" className={({ isActive, isPending }) => 
+          <NavLink key={4} to="/apex/xpel" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
-            Preschool
+            XPEL
           </NavLink>,
-          <NavLink key={2} to="/about" className={({ isActive, isPending }) => 
+          <NavLink key={2} to="/apex/blog" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
-            About
+            Blog
           </NavLink>,
-          <NavLink key={5} to="/contact" className={({ isActive, isPending }) => 
+          <NavLink key={5} to="/apex/contact" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
-            Contact
+            Contact Us
+          </NavLink>
+        ]}
+        elevatedLinks={[
+          <NavLink key={6} to="/elevated" end className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            Home
+          </NavLink>,
+          <NavLink key={7} to="/elevated/about" className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            About+
+          </NavLink>,
+          <NavLink key={8} to="/elevated/services" className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            Services+
+          </NavLink>,
+          <NavLink key={9} to="/elevated/brands" className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            Brands
+          </NavLink>,
+          <NavLink key={10} to="/elevated/financing" className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            Financing
+          </NavLink>,
+          <NavLink key={11} to="/elevated/contact" className={({ isActive, isPending }) => 
+            isPending ? "pending" : isActive ? "active" : ""
+          }>
+            Contact Us
           </NavLink>
         ]}
       />
+      
+      <a href='/elevated'>
+        <img src={elevatedLogo} className='elevated-logo' />
+      </a>
     </div>
   )
 }

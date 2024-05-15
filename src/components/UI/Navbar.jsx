@@ -1,7 +1,15 @@
-export default function Navbar({ links }) {
+export default function Navbar({ apexLinks, elevatedLinks }) {
+  const pathname = window.location.pathname
+
   return (
-    <nav>
-      {links.map((link) => link)}
-    </nav>
+    pathname === "/apex" ? (
+      <nav>
+        {apexLinks.map((link) => link)}
+      </nav>
+    ) : (
+      <nav>
+        {elevatedLinks.map((link) => link)}
+      </nav>
+    )
   )
 }
