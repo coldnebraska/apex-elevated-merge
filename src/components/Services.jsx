@@ -9,7 +9,7 @@ export default function Services() {
   const [active, setActive] = useState('ppf')
 
   return (
-    <>
+    <div className='services-display'>
       <div key={1} className="service-img" style={active == 'ppf' ? {width: '40%'} : {width: '20%'}} onMouseEnter={() => setActive('ppf')}>
         <div className="blur" style={active == 'ppf' ? {filter: 'blur(0px)'} : {}}>
           <img src={ppf} />
@@ -34,6 +34,6 @@ export default function Services() {
         </div>
         <h1 className='rotate'>Window Tint</h1>
       </div>
-    </>
+    </div>
   )
 }

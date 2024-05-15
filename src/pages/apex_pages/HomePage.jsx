@@ -7,9 +7,7 @@ import aboutLogo from '../../assets/images/apex_orange_logo.png'
 export default function HomePage() {
   return (
     <div>
-      <div className='services-display'>
-        <Services />
-      </div>
+      <Services />
 
       <div className="about">
         <div className='about-text'>

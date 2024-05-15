@@ -53,7 +53,7 @@ export default function ServiceLinks() {
   ]
 
   return (
-    <>
+    <div className='service-links'>
       <div className="top">
         {top.map((service) => {
           return (
@@ -81,6 +81,6 @@ export default function ServiceLinks() {
           )
         })}
       </div>
-    </>
+    </div>
   )
 }
