@@ -5,19 +5,47 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
-// Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App'
-import ErrorPage from './pages/ErrorPage'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import CampPage from './pages/CampPage'
-import PreschoolPage from './pages/PreschoolPage'
-import ContactPage from './pages/ContactPage'
+
+// Importing Apex pages
+import ErrorPage from './pages/apex_pages/ErrorPage'
+import HomePage from './pages/apex_pages/HomePage'
+import AboutPage from './pages/apex_pages/AboutPage'
+import CampPage from './pages/apex_pages/CampPage'
+import PreschoolPage from './pages/apex_pages/PreschoolPage'
+import ContactPage from './pages/apex_pages/ContactPage'
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/apex',
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+      {
+        path: 'services',
+        element: <AboutPage />,
+      },
+      {
+        path: 'xpel',
+        element: <CampPage />,
+      },
+      {
+        path: 'blog',
+        element: <PreschoolPage />,
+      },
+      {
+        path: 'contact',
+        element: <ContactPage />,
+      }
+    ],
+  },
+  {
+    path: '/elevated',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -30,11 +58,15 @@ const router = createBrowserRouter([
         element: <AboutPage />,
       },
       {
-        path: 'camp',
+        path: 'services',
+        element: <AboutPage />,
+      },
+      {
+        path: 'brands',
         element: <CampPage />,
       },
       {
-        path: 'preschool',
+        path: 'financing',
         element: <PreschoolPage />,
       },
       {
@@ -42,7 +74,7 @@ const router = createBrowserRouter([
         element: <ContactPage />,
       }
     ],
-  },
+  }
 ])
 
 // Render the RouterProvider component
