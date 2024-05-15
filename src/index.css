@@ -101,23 +101,46 @@ nav a:hover {
 /* *Footer */
 .footer {
   width: 100%;
-  background-color: var(--dark-color);
+  background-color: black;
+  color: white;
   text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.footer img {
+  width: 216px;
+  height: 80px;
 }
 
 .footer-content {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 2rem;
-  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-col {
+  width: 15%;
+}
+
+.footer-col h4{
+  margin: 2rem 0;
+}
+
+.footer-col img {
+  margin-bottom: 10px;
 }
 /* *End of footer */
 
 /* *Google Map */
 #map {
-  width: 350px;
-  height: 350px;
+  height: 250px;
+}
+
+.pin {
+  font-size: 14px;
+  color: black;
 }
 
 @media screen and (max-width: 900px) {

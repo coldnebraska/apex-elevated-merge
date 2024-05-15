@@ -4,14 +4,14 @@ import { Icon } from "@iconify/react"
 
 export default function Map() {
     const location = {
-        address: 'Spicewood Country School',
-        lat: 30.391520,
-        lng: -97.774353
+        address: 'Apex Auto Shield',
+        lat: 30.570820,
+        lng: -97.847160
     }
 
     const LocationPin = ({ text }) => (
         <div className="pin">
-            <Icon icon='map:postal-code' />
+            <Icon icon='map:postal-code' style={{ color:'black', fontSize: '20px' }} />
             <p>{text}</p>
         </div>
     )
