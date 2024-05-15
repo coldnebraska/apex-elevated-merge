@@ -1,4 +1,4 @@
-import flowerImg from '../assets/images/flowers.png'
+// import flowerImg from '../assets/images/flowers.png'
 
 export default function AboutPage() {
   return (
@@ -21,7 +21,7 @@ export default function AboutPage() {
             <li>Room to explore and fish on the banks of Bull Creek</li>
           </ul>
         </div>
-        <img id='flower-img' src={flowerImg} />
+        {/* <img id='flower-img' src={flowerImg} /> */}
       </div>
     </div>
   )

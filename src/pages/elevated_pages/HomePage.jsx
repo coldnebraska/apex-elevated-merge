@@ -1,8 +1,8 @@
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import image1 from '../assets/images/homepage_1.jpg'
-import image2 from '../assets/images/homepage_2.jpg'
-import image3 from '../assets/images/homepage_3.jpg'
+// import image1 from '../assets/images/homepage_1.jpg'
+// import image2 from '../assets/images/homepage_2.jpg'
+// import image3 from '../assets/images/homepage_3.jpg'
 
 export default function HomePage() {
   return (
@@ -14,15 +14,15 @@ export default function HomePage() {
 
       <Carousel>
         <div>
-          <img src={image1} className="carousel" />
+          {/* <img src={image1} className="carousel" /> */}
         </div>
 
         <div>
-          <img src={image2}  className="carousel"/>
+          {/* <img src={image2}  className="carousel"/> */}
         </div>
 
         <div>
-          <img src={image3}  className="carousel"/>
+          {/* <img src={image3}  className="carousel"/> */}
         </div>
       </Carousel>
     </div>
