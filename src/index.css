@@ -167,6 +167,9 @@ nav a:hover {
 .text-overlay {
   position: absolute;
   transform: translateY(150%);
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
 }
 /* *End of homepage */
 
