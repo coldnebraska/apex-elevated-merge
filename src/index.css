@@ -55,7 +55,7 @@ nav a:hover {
 /* *End of header */
 
 /* *Homepage services display */
-.services-nav {
+.services-display {
   display: flex;
   height: 900px;
   border-top: 1px solid var(--important-text);
@@ -142,6 +142,31 @@ nav a:hover {
   left: 0;
   bottom: 0;
   height: 400px;
+}
+
+.top,
+.bottom {
+  display: flex;
+}
+
+.top-img,
+.bottom-img {
+  width: 33.3%;
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  transition: .3s;
+}
+
+.top-img img,
+.bottom-img img {
+  height: 400px;
+  width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  transform: translateY(150%);
 }
 /* *End of homepage */
 
