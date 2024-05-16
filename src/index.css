@@ -108,6 +108,7 @@ nav a:hover {
   width: 75%;
   margin: 5rem auto;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .about-text {
@@ -142,6 +143,34 @@ nav a:hover {
   left: 0;
   bottom: 0;
   height: 400px;
+}
+
+.services-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.services-header h1 {
+  font-size: 300px;
+  opacity: .1;
+  margin-bottom: -80px;
+}
+
+.services-header h4 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.services-header button {
+  width: 50%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.services-header button:hover {
+  cursor: pointer;
 }
 
 .service-links {
@@ -184,7 +213,6 @@ nav a:hover {
   text-align: center;
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--important-text);
 }
 
 .footer img {
