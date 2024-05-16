@@ -22,6 +22,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px;
+  border-bottom: 1px solid var(--important-text);
 }
 
 .apex-logo,
@@ -58,7 +59,6 @@ nav a:hover {
 .services-display {
   display: flex;
   height: 900px;
-  border-top: 1px solid var(--important-text);
   border-bottom: 1px solid var(--important-text);
 }
 
@@ -100,7 +100,7 @@ nav a:hover {
   color: var(--important-text);
 }
 
-.about {
+.side-by-side {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,25 +111,18 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.about-text {
-  position: relative;
-}
-
 #shadow {
-  position: relative;
-  top: 0;
-  transform: translateY(50%);
   color: rgb(132, 132, 132);
   font-size: 200px;
   opacity: .1;
-  margin-top: -40%;
+  margin-bottom: -80px;
 }
 
 .about h1 {
   font-size: 50px;
 }
 
-.homepage-about-img {
+.sbs-img {
   position: relative;
 }
 
@@ -175,7 +168,6 @@ nav a:hover {
 
 .service-links {
   border-top: 1px solid var(--important-text);
-  border-bottom: 1px solid var(--important-text);
 }
 
 .top,
@@ -207,12 +199,76 @@ nav a:hover {
 }
 /* *End of homepage */
 
+/* *Xpel page */
+.xpel-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xpel-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xpel-header p {
+  width: 60%;
+  text-align: center;
+}
+
+#selection-btn {
+  cursor: pointer;
+  background-color: var(--important-text);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.page-divider {
+  background-color: var(--important-text);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  margin: 3rem 0;
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 65%;
+  border: 1px solid grey;
+  margin-bottom: 3rem;
+}
+
+.expandable {
+  border-bottom: 1px solid grey;
+}
+
+.expandable h6 {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.expandable p {
+  padding: 10px;
+}
+/* *End of xpel page */
+
 /* *Footer */
 .footer {
   width: 100%;
   text-align: center;
-  margin-top: 3rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--important-text);
 }
 
 .footer img {

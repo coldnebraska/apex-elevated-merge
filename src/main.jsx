@@ -11,7 +11,7 @@ import App from './App'
 import ErrorPage from './pages/apex_pages/ErrorPage'
 import HomePage from './pages/apex_pages/HomePage'
 import AboutPage from './pages/apex_pages/AboutPage'
-import CampPage from './pages/apex_pages/CampPage'
+import XpelPage from './pages/apex_pages/XpelPage'
 import PreschoolPage from './pages/apex_pages/PreschoolPage'
 import ContactPage from './pages/apex_pages/ContactPage'
 
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'xpel',
-        element: <CampPage />,
+        element: <XpelPage />,
       },
       {
         path: 'blog',
@@ -63,7 +63,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'brands',
-        element: <CampPage />,
+        // element: <CampPage />,
       },
       {
         path: 'financing',

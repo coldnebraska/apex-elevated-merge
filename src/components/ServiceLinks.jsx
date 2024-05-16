@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
-import rangeRover from '../assets/images/range_rover.jpg'
-import porsche from '../assets/images/porsche_gt3.jpg'
-import lamboDuo from '../assets/images/lamborghini_duo.jpg'
-import lamboSingle from '../assets/images/lamborghini.jpg'
-import bmw from '../assets/images/bmw.jpg'
-import blackPorsche from '../assets/images/porsche_gts.jpg'
+import rangeRover from '../assets/serviceLinkImages/range_rover.jpg'
+import porsche from '../assets/serviceLinkImages/porsche_gt3.jpg'
+import lamboDuo from '../assets/serviceLinkImages/lamborghini_duo.jpg'
+import lamboSingle from '../assets/serviceLinkImages/lamborghini.jpg'
+import bmw from '../assets/serviceLinkImages/bmw.jpg'
+import blackPorsche from '../assets/serviceLinkImages/porsche_gts.jpg'
 
 export default function ServiceLinks() {
   const [active, setActive] = useState('')
