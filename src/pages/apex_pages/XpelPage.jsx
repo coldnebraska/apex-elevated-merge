@@ -71,7 +71,7 @@ export default function XpelPage() {
           </div>
 
           <div className="expandable">
-            <h6><span id='expand-marker'>+</span> Whatis XPEL Paint Protection Film (PPF)?</h6>
+            <h6><span id='expand-marker'>+</span> What is XPEL Paint Protection Film (PPF)?</h6>
             <p id='hidden'>XPEL PPF is a clear or colored polyurethane film that is applied to vehicles to protect them from scratches, dents, or swirls caused by road debris, rocks, bug droppings, and other environmental elements. It helps maintain your car’s pristine appearance for a longer period of time.</p>
           </div>
           

@@ -1,8 +1,9 @@
 export default function Navbar({ apexLinks, elevatedLinks }) {
-  const pathname = window.location.pathname
+  let pathname = window.location.pathname
+  pathname = pathname.split('/')
 
   return (
-    pathname === "/apex" ? (
+    pathname.includes("apex") ? (
       <nav>
         {apexLinks.map((link) => link)}
       </nav>

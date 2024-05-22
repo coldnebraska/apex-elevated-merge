@@ -10,7 +10,7 @@ import App from './App'
 // Importing Apex pages
 import ErrorPage from './pages/apex_pages/ErrorPage'
 import HomePage from './pages/apex_pages/HomePage'
-import AboutPage from './pages/apex_pages/AboutPage'
+import ServicesPage from './pages/apex_pages/ServicesPage'
 import XpelPage from './pages/apex_pages/XpelPage'
 import PreschoolPage from './pages/apex_pages/PreschoolPage'
 import ContactPage from './pages/apex_pages/ContactPage'
@@ -28,15 +28,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'services',
-        element: <AboutPage />,
+        element: <ServicesPage />,
       },
       {
         path: 'xpel',
         element: <XpelPage />,
-      },
-      {
-        path: 'blog',
-        element: <PreschoolPage />,
       },
       {
         path: 'contact',
@@ -55,11 +51,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'about',
-        element: <AboutPage />,
+        element: <ServicesPage />,
       },
       {
         path: 'services',
-        element: <AboutPage />,
+        element: <ServicesPage />,
       },
       {
         path: 'brands',

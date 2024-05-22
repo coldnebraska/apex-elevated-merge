@@ -30,11 +30,6 @@ export default function Nav() {
           }>
             XPEL
           </NavLink>,
-          <NavLink key={2} to="/apex/blog" className={({ isActive, isPending }) => 
-            isPending ? "pending" : isActive ? "active" : ""
-          }>
-            Blog
-          </NavLink>,
           <NavLink key={5} to="/apex/contact" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
