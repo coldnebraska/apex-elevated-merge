@@ -13,7 +13,7 @@ export default function ServicesPage() {
           <a href='/apex/services/#detailing' id='highlight'>Detailing</a>
         </div>
       </div>
-      
+
       <div id='tint'>
         <h1 id='services-shadow'>Tint</h1>
         <h1>YOUR <span id="highlight">GO-TO WINDOW TINTING</span> EXPERTS</h1>
