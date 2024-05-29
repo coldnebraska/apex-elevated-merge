@@ -109,7 +109,7 @@ export default function Ppf() {
                 <p>{currentPackage.text}</p>
             </div>
 
-            <div className="right box">
+            <div className="right">
                 <h1>Starting at</h1>
                 <h1 id="highlight">{currentPackage.price}</h1>
                 {currentPackage.info.map((info) => {
