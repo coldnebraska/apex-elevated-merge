@@ -88,6 +88,7 @@ nav a:hover {
   left: 50%;
   margin: 0;
   width: 550px;
+  color: white;
 }
 
 .rotate {
@@ -199,6 +200,94 @@ nav a:hover {
 }
 /* *End of homepage */
 
+/* *Services page */
+.service-page-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--important-text);
+  padding: 1rem;
+}
+
+.service-page-nav a {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: larger;
+}
+
+.service-page-nav a:hover {
+  text-decoration: underline;
+}
+
+#tint,
+#ppf,
+#coating,
+#detailing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--important-text);
+}
+
+#sp-header-text {
+  width: 75%;
+  text-align: center;
+}
+
+#services-shadow {
+  opacity: .1;
+  color: rgb(132, 132, 132);
+  font-size: 100px;
+  margin-bottom: -20px;
+}
+
+.service-selector {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 5%;
+  height: 550px;
+}
+
+.service-selector-tall {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 5%;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 550px;
+}
+
+.left {
+  background-color: rgb(45, 45, 45);
+  padding: 10px;
+  width: 250px;
+}
+
+.left h1:hover {
+  cursor: pointer;
+}
+
+.middle {
+  width: 800px;
+}
+
+.right {
+  border: 1px solid grey;
+  padding: 1rem;
+}
+
+#package-img {
+  width: 800px;
+  height: 300px;
+  padding: 1rem 0;
+}
+/* *End of services page */
+
 /* *Xpel page */
 .xpel-page {
   display: flex;
@@ -272,9 +361,9 @@ nav a:hover {
 
 #shadow-main {
   color: rgb(132, 132, 132);
-  font-size: 250px;
+  font-size: 13vw;
   opacity: .1;
-  margin-bottom: -170px;
+  margin-bottom: -100px;
 }
 
 #z-index {
