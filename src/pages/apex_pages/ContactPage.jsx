@@ -57,24 +57,24 @@ export default function ContactPage() {
 
         <div className="email">
           <p>Email</p>
-          <input></input>
+          <input placeholder='john@smith.com'></input>
         </div>
 
         <div className='contact-row'>
           <div className="vehicle">
             <div>
               <p>Vehicle Year</p>
-              <input></input>
+              <input placeholder='2024'></input>
             </div>
 
             <div>
               <p>Vehicle Make</p>
-              <input></input>
+              <input placeholder='Chevrolet'></input>
             </div>
 
             <div>
               <p>Vehicle Model</p>
-              <input></input>
+              <input placeholder='Corvette'></input>
             </div>
           </div>
         </div>

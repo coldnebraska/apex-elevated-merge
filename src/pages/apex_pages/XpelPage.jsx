@@ -61,27 +61,27 @@ export default function XpelPage() {
 
         <div className="box">
           <div className="expandable">
-            <h6><span id='expand-marker'>+</span> What is XPEL?</h6>
+            <h6 id='highlight'><span id='expand-marker'>+</span> What is XPEL?</h6>
             <p id='hidden'>XPEL is a leading provider of automotive protection products, including window tinting films, paint protection films (PPF), and other car care solutions. Known for its high-quality and advanced technology, XPEL provides top-tier products designed to protect and enhance your vehicle’s appearance.</p>
           </div>
 
           <div className="expandable">
-            <h6><span id='expand-marker'>+</span> What is XPEL window tint and how does it benefit me?</h6>
+            <h6 id='highlight'><span id='expand-marker'>+</span> What is XPEL window tint and how does it benefit me?</h6>
             <p id='hidden'>XPEL window tint is a premium window film that provides protection from harmful UV rays, reduces heat, enhances privacy, and adds a sleek aesthetic to your vehicle. It blocks up to 99% of UV rays, helping to keep your car’s interior cool and protected from sun damage.</p>
           </div>
 
           <div className="expandable">
-            <h6><span id='expand-marker'>+</span> What is XPEL Paint Protection Film (PPF)?</h6>
+            <h6 id='highlight'><span id='expand-marker'>+</span> What is XPEL Paint Protection Film (PPF)?</h6>
             <p id='hidden'>XPEL PPF is a clear or colored polyurethane film that is applied to vehicles to protect them from scratches, dents, or swirls caused by road debris, rocks, bug droppings, and other environmental elements. It helps maintain your car’s pristine appearance for a longer period of time.</p>
           </div>
           
           <div className="expandable">
-            <h6><span id='expand-marker'>+</span> How long does XPEL's Products last?</h6>
+            <h6 id='highlight'><span id='expand-marker'>+</span> How long does XPEL's Products last?</h6>
             <p id='hidden'>The longevity of XPEL products depends on various factors including the specific product, vehicle use, maintenance, and environmental conditions. However, XPEL products are designed to be highly durable. For instance, XPEL’s PPF and window tints come with a manufacturer’s warranty, providing peace of mind for your investment.</p>
           </div>
           
           <div className="expandable">
-            <h6><span id='expand-marker'>+</span> How can I maintain my vehicle after XPEL product application?</h6>
+            <h6 id='highlight'><span id='expand-marker'>+</span> How can I maintain my vehicle after XPEL product application?</h6>
             <p id='hidden'>After application of XPEL products, regular washing helps maintain the product’s appearance and longevity. You can wash your vehicle the same way you would do without the product. However, it’s recommended to wait a week before washing your vehicle after the product has been installed to allow it to fully cure. Always consult with your installer for detailed care instructions.</p>
           </div>
         </div>
