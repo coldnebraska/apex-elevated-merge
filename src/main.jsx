@@ -15,6 +15,7 @@ import XpelPage from './pages/apex_pages/XpelPage'
 import PreschoolPage from './pages/apex_pages/PreschoolPage'
 import ContactPage from './pages/apex_pages/ContactPage'
 
+import ElevatedHomePage from './pages/elevated_pages/HomePage'
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
@@ -47,7 +48,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <ElevatedHomePage />,
       },
       {
         path: 'about',
