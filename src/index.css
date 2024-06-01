@@ -268,11 +268,11 @@ nav a:hover {
   width: 250px;
 }
 
-.left {
+.left h1 {
   border-bottom: 1px solid black;
 }
 
-.left:last-child {
+.left h1:last-child {
   border-top: 1px solid black;
   border-bottom: none;
 }
