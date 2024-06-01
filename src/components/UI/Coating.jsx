@@ -8,7 +8,7 @@ export default function Coating() {
         id: 'level1',
         text: 'The Level 1 Ceramic Protection package is designed for those who want to experience the benefits of ceramic coating at an accessible price. This package delivers a clean, smooth, and protected surface with our comprehensive hand wash, clay bar treatment, and iron remover application. Finally, we apply a 1-year ceramic coating to shield your vehicle from the elements. This package is a fantastic starting point to enhance your vehicle’s shine and resistance.',
         price: '$599',
-        image: '/assets/tintPackageImages/sunstrip.jpg',
+        image: '/assets/coatingPackageImages/level1.png',
         info: ['Comprehensive Hand Wash', 'Clay Bar Treatment', 'Iron Remover Application', '1-Year Ceramic Coating', 'Optional Paint Correction']
     })
 
@@ -18,7 +18,7 @@ export default function Coating() {
             id: 'level1',
             text: 'The Level 1 Ceramic Protection package is designed for those who want to experience the benefits of ceramic coating at an accessible price. This package delivers a clean, smooth, and protected surface with our comprehensive hand wash, clay bar treatment, and iron remover application. Finally, we apply a 1-year ceramic coating to shield your vehicle from the elements. This package is a fantastic starting point to enhance your vehicle’s shine and resistance.',
             price: '$599',
-            image: '/assets/tintPackageImages/sunstrip.jpg',
+            image: '/assets/coatingPackageImages/level1.png',
             info: ['Comprehensive Hand Wash', 'Clay Bar Treatment', 'Iron Remover Application', '1-Year Ceramic Coating', 'Optional Paint Correction']
         },
         {
@@ -26,7 +26,7 @@ export default function Coating() {
             id: 'level2',
             text: 'Our Level 2 package steps up the protection by including a one-step paint correction and a 4-year ceramic application. This intermediate package not only offers durable paint protection, but also corrects minor paint imperfections. The result is a flawless surface with prolonged protection.',
             price: '$1,299',
-            image: '/assets/tintPackageImages/front.jpg',
+            image: '/assets/coatingPackageImages/level2.png',
             info: ['Comprehensive Hand Wash', 'Clay Bar Treatment', 'Iron Remover Application', '4-Year Ceramic Coating', 'One-Step Paint Correction']
         },
         {
@@ -34,7 +34,7 @@ export default function Coating() {
             id: 'level3',
             text: 'The Level 3 package is for those seeking the highest level of protection and care for their vehicle. It encompasses everything in Level 2 and extends the ceramic protection to 8 years. The advanced protection maximizes the lifespan and aesthetics of your vehicle’s paintwork, offering you peace of mind.',
             price: '$1,699',
-            image: '/assets/tintPackageImages/side.jpg',
+            image: '/assets/coatingPackageImages/level3.png',
             info: ['Comprehensive Hand Wash', 'Clay Bar Treatment', 'Iron Remover Application', '8-Year Ceramic Coating', 'One-Step Paint Correction']
         }
     ]
