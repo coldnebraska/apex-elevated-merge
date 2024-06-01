@@ -76,23 +76,27 @@ export default function Ppf() {
             <div className="left">
                 {packageList.map((packageItem) => {
                     return (
-                        <h1 key={packageItem.id} style={packageItem.title == 'Front Bumper' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
-                            document.getElementById(packageItem.id).style.color = 'var(--important-text)'
-                            setPreviousTitle(packageItem.id)
-
-                            if (previousTitle) {
-                                document.getElementById(previousTitle).style.color = 'white'
-                            }
-
-                            setCurrentPackage({
-                                title: packageItem.title,
-                                id: packageItem.id,
-                                text: packageItem.text,
-                                price: packageItem.price,
-                                image: packageItem.image,
-                                info: packageItem.info
-                            })
-                        }}>{packageItem.title}</h1>
+                        <>
+                            <h1 key={packageItem.id} style={packageItem.title == 'Front Bumper' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
+                                document.getElementById(packageItem.id).style.color = 'var(--important-text)'
+                                setPreviousTitle(packageItem.id)
+                                
+                                if (previousTitle) {
+                                    document.getElementById(previousTitle).style.color = 'white'
+                                }
+                                
+                                setCurrentPackage({
+                                    title: packageItem.title,
+                                    id: packageItem.id,
+                                    text: packageItem.text,
+                                    price: packageItem.price,
+                                    image: packageItem.image,
+                                    info: packageItem.info
+                                })
+                            }}>{packageItem.title}</h1>
+                            
+                            <div id="left-divider"></div>
+                        </>
                     )
                 })}
             </div>

@@ -78,6 +78,7 @@ export default function Ppf() {
                                     info: packageItem.info
                                 })
                             }}>{packageItem.title}</h1>
+                            
                             <div id="left-divider"></div>
                         </>
                     )

@@ -44,23 +44,27 @@ export default function Coating() {
             <div className="left">
                 {packageList.map((packageItem) => {
                     return (
-                        <h1 key={packageItem.id} style={packageItem.title == 'Level 1' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
-                            document.getElementById(packageItem.id).style.color = 'var(--important-text)'
-                            setPreviousTitle(packageItem.id)
+                        <>
+                            <h1 key={packageItem.id} style={packageItem.title == 'Level 1' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
+                                document.getElementById(packageItem.id).style.color = 'var(--important-text)'
+                                setPreviousTitle(packageItem.id)
+                                
+                                if (previousTitle) {
+                                    document.getElementById(previousTitle).style.color = 'white'
+                                }
+                                
+                                setCurrentPackage({
+                                    title: packageItem.title,
+                                    id: packageItem.id,
+                                    text: packageItem.text,
+                                    price: packageItem.price,
+                                    image: packageItem.image,
+                                    info: packageItem.info
+                                })
+                            }}>{packageItem.title}</h1>
 
-                            if (previousTitle) {
-                                document.getElementById(previousTitle).style.color = 'white'
-                            }
-
-                            setCurrentPackage({
-                                title: packageItem.title,
-                                id: packageItem.id,
-                                text: packageItem.text,
-                                price: packageItem.price,
-                                image: packageItem.image,
-                                info: packageItem.info
-                            })
-                        }}>{packageItem.title}</h1>
+                            <div id="left-divider"></div>
+                        </>
                     )
                 })}
             </div>
