@@ -3,13 +3,13 @@ export default function Navbar({ apexLinks, elevatedLinks }) {
   pathname = pathname.split('/')
 
   return (
-    pathname.includes("apex") ? (
+    pathname.includes("elevated") ? (
       <nav>
-        {apexLinks.map((link) => link)}
+        {elevatedLinks.map((link) => link)}
       </nav>
     ) : (
       <nav>
-        {elevatedLinks.map((link) => link)}
+        {apexLinks.map((link) => link)}
       </nav>
     )
   )
