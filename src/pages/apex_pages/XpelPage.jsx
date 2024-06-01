@@ -1,14 +1,8 @@
-import xpelLogo from '../../assets/xpelPageImages/xpel_logo.jpg'
-import tintVideo from '../../assets/xpelPageImages/tint_video.png'
-import xpelDivider from '../../assets/xpelPageImages/xpel_divider.png'
-import ppfVideo from '../../assets/xpelPageImages/ppf_video.png'
-import ceramicVideo from '../../assets/xpelPageImages/ceramic_video.png'
-
 export default function XpelPage() {
   return (
     <div className='xpel-page'>
       <div className="xpel-header">
-        <img src={xpelLogo} />
+        <img src='/assets/xpelPageImages/xpel_logo.jpg' />
         <p>Welcome to Apex Auto Shield, your leading choice for exceptional vehicle protection in Austin and Leander, TX. As an authorized dealer for XPEL, a prominent name in the automotive protection industry, we’re proud to bring you a wide range of their top-tier products.</p>
       </div>
 
@@ -20,13 +14,13 @@ export default function XpelPage() {
           <p>Elevate your driving experience while shielding your vehicle’s interior with XPEL PRIME window films. Available in a spectrum of shades, these premium tints offer superior heat rejection, UV protection, and privacy. They also effectively reduce glare, ensuring a safer and more comfortable drive.</p>
         </div>
 
-        <img src={tintVideo} />
+        <img src='/assets/xpelPageImages/tint_video.png' />
       </div>
 
       <button id='selection-btn'>VIEW OUR TINT SELECTION</button>
       
       <div className="side-by-side">
-        <img src={ppfVideo} />
+        <img src='/assets/xpelPageImages/ppf_video.png' />
 
         <div>
           <h1 id='shadow'>PPF</h1>
@@ -47,13 +41,13 @@ export default function XpelPage() {
           <p>Gift your vehicle the superior protection it merits with XPEL FUSION PLUS, a professionally installed ceramic coating. This hydrophobic coating imparts a glossy, slick finish to your vehicle while offering advanced protection against swirl marks, scratches, chemical stains, and oxidation.</p>
         </div>
 
-        <img src={ceramicVideo} />
+        <img src='/assets/xpelPageImages/ceramic_video.png' />
       </div>
 
       <button id='selection-btn'>VIEW OUR TINT SELECTION</button>
       
       <div className='page-divider'>
-        <img src={xpelDivider} />
+        <img src='/assets/xpelPageImages/xpel_divider.png' />
       </div>
 
       <div className='learn-more'>

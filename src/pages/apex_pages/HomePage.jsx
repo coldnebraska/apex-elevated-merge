@@ -1,9 +1,6 @@
 import Services from '../../components/Services'
 import ServiceLinks from '../../components/ServiceLinks'
 
-import aboutImg from '../../assets/homepageImages/homepage_about.png'
-import aboutLogo from '../../assets/homepageImages/apex_orange_logo.png'
-
 export default function HomePage() {
   return (
     <div>
@@ -18,8 +15,8 @@ export default function HomePage() {
         </div>
 
         <div className='sbs-img'>
-          <img src={aboutImg} id='about-logo' />
-          <img src={aboutLogo} id='logo-overlay' />
+          <img src='/assets/homepageImages/homepage_about.png' id='about-logo' />
+          <img src='/assets/homepageImages/apex_orange_logo.png' id='logo-overlay' />
         </div>
       </div>
 

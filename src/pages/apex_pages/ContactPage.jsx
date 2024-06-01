@@ -1,4 +1,3 @@
-import cadillac from '../../assets/contactImages/cadillac.png'
 import { Icon } from "@iconify/react"
 
 export default function ContactPage() {
@@ -6,7 +5,7 @@ export default function ContactPage() {
     <div className="contact-page">
       <h1 id='shadow-main'>C O N T A C T</h1>
       <div className="side-by-side">
-        <img src={cadillac} id='z-index' />
+        <img src='/assets/contactImages/cadillac.png' id='z-index' />
 
         <div>
           <h1 id='highlight'>GET IN TOUCH</h1>
