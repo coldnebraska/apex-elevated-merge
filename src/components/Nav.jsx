@@ -9,28 +9,28 @@ export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
     <div className='header'>
-        <a href='/apex'>
+        <a href='/'>
           <img src={apexLogo} className='apex-logo' />
         </a>
 
       <Navbar
         apexLinks={[
-          <NavLink key={1} to="/apex" end className={({ isActive, isPending }) => 
+          <NavLink key={1} to="/" end className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
             Home
           </NavLink>,
-          <NavLink key={3} to="/apex/services" className={({ isActive, isPending }) => 
+          <NavLink key={3} to="/services" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
             Services+
           </NavLink>,
-          <NavLink key={4} to="/apex/xpel" className={({ isActive, isPending }) => 
+          <NavLink key={4} to="/xpel" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
             XPEL
           </NavLink>,
-          <NavLink key={5} to="/apex/contact" className={({ isActive, isPending }) => 
+          <NavLink key={5} to="/contact" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
             Contact Us
