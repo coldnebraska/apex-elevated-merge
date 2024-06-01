@@ -19,7 +19,7 @@ import ElevatedHomePage from './pages/elevated_pages/HomePage'
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
-    path: '/apex',
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
