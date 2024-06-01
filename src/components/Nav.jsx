@@ -2,8 +2,8 @@
 import { NavLink } from 'react-router-dom'
 import Navbar from './UI/Navbar'
 
-import apexLogo from '../assets/navImages/apex_logo.png'
-import elevatedLogo from '../assets/navImages/elevated_logo.png'
+import apexLogo from '/assets/navImages/apex_logo.png'
+import elevatedLogo from '/assets/navImages/elevated_logo.png'
 
 export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop

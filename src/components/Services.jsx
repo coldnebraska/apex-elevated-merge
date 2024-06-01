@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import ppf from '../assets/servicesImages/ppf.jpg'
-import tint from '../assets/servicesImages/window_tint.jpg'
-import detailing from '../assets/servicesImages/detailing.jpg'
-import correction from '../assets/servicesImages/correction.jpg'
+import ppf from '/assets/servicesImages/ppf.jpg'
+import tint from '/assets/servicesImages/window_tint.jpg'
+import detailing from '/assets/servicesImages/detailing.jpg'
+import correction from '/assets/servicesImages/correction.jpg'
 
 export default function Services() {
   const [active, setActive] = useState('ppf')

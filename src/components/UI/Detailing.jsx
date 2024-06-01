@@ -1,9 +1,8 @@
 import { useState } from "react"
 
-import sunstrip from '../../assets/tintPackageImages/sunstrip.jpg'
-import front from '../../assets/tintPackageImages/front.jpg'
-import side from '../../assets/tintPackageImages/side.jpg'
-import sid1e from '../../assets/tintPackageImages/side.jpg'
+import sunstrip from '/assets/tintPackageImages/sunstrip.jpg'
+import front from '/assets/tintPackageImages/front.jpg'
+import side from '/assets/tintPackageImages/side.jpg'
 
 export default function Detailing() {
     const [previousTitle, setPreviousTitle] = useState('fullInterior')

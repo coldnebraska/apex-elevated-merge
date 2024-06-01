@@ -1,4 +1,4 @@
-import apexLogo from '../assets/navImages/apex_logo.png'
+import apexLogo from '/assets/navImages/apex_logo.png'
 import Map from './Map'
 
 export default function Footer() {

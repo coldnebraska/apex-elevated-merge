@@ -1,10 +1,10 @@
 import { useState } from "react"
 
-import sunstrip from '../../assets/tintPackageImages/sunstrip.jpg'
-import front from '../../assets/tintPackageImages/front.jpg'
-import side from '../../assets/tintPackageImages/side.jpg'
-import deluxe from '../../assets/tintPackageImages/deluxe.jpg'
-import windshield from '../../assets/tintPackageImages/windshield.jpg'
+import sunstrip from '/assets/tintPackageImages/sunstrip.jpg'
+import front from '/assets/tintPackageImages/front.jpg'
+import side from '/assets/tintPackageImages/side.jpg'
+import deluxe from '/assets/tintPackageImages/deluxe.jpg'
+import windshield from '/assets/tintPackageImages/windshield.jpg'
 
 export default function Ppf() {
     const [previousTitle, setPreviousTitle] = useState('sunstrip')
