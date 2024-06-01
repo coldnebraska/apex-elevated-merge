@@ -2,15 +2,12 @@
 import { NavLink } from 'react-router-dom'
 import Navbar from './UI/Navbar'
 
-import apexLogo from '/assets/navImages/apex_logo.png'
-import elevatedLogo from '/assets/navImages/elevated_logo.png'
-
 export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
     <div className='header'>
         <a href='/'>
-          <img src={apexLogo} className='apex-logo' />
+          <img src='/assets/navImages/apex_logo.png' className='apex-logo' />
         </a>
 
       <Navbar
@@ -71,7 +68,7 @@ export default function Nav() {
       />
       
       <a href='/elevated'>
-        <img src={elevatedLogo} className='elevated-logo' />
+        <img src='/assets/navImages/elevated_logo.png' className='elevated-logo' />
       </a>
     </div>
   )

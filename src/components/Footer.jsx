@@ -1,4 +1,3 @@
-import apexLogo from '/assets/navImages/apex_logo.png'
 import Map from './Map'
 
 export default function Footer() {
@@ -6,7 +5,7 @@ export default function Footer() {
     <div className='footer'>
       <div className='footer-content'>
         <div className='footer-col'>
-          <img src={apexLogo} />
+          <img src='/assets/navImages/apex_logo.png' />
           <p>Apex Auto Shield, based in Leander, TX, is your one-stop solution for exceptional vehicle care services. We specialize in XPEL window tinting, paint protection film, paint correction, ceramic coating, and meticulous detailing. Enhance and protect your vehicle with Apex Auto Shield. Unveil the brilliance within today.</p>
         </div>
 

@@ -1,12 +1,5 @@
 import { useState } from 'react'
 
-import rangeRover from '/assets/serviceLinkImages/range_rover.jpg'
-import porsche from '/assets/serviceLinkImages/porsche_gt3.jpg'
-import lamboDuo from '/assets/serviceLinkImages/lamborghini_duo.jpg'
-import lamboSingle from '/assets/serviceLinkImages/lamborghini.jpg'
-import bmw from '/assets/serviceLinkImages/bmw.jpg'
-import blackPorsche from '/assets/serviceLinkImages/porsche_gts.jpg'
-
 export default function ServiceLinks() {
   const [active, setActive] = useState('')
 
@@ -15,19 +8,19 @@ export default function ServiceLinks() {
       id: 'window-tint',
       title: 'WINDOW TINTING',
       text: 'PROTECTION MEETS STYLE',
-      img: rangeRover
+      img: '/assets/serviceLinkImages/range_rover.jpg'
     },
     {
       id: 'paint-protection',
       title: 'PAINT PROTECTION',
       text: 'SHIELD AGAINST DAMAGE',
-      img: porsche
+      img: '/assets/serviceLinkImages/porsche_gt3.jpg'
     },
     {
       id: 'ceramic-coating',
       title: 'CERAMIC COATING',
       text: 'RESTORE AND REVITALIZE',
-      img: lamboDuo
+      img: '/assets/serviceLinkImages/lamborghini_duo.jpg'
     }
   ]
 
@@ -36,19 +29,19 @@ export default function ServiceLinks() {
       id: 'detailing',
       title: 'DETAILING',
       text: "REVIVE YOUR VEHICLE'S SHINE",
-      img: lamboSingle
+      img: '/assets/serviceLinkImages/lamborghini.jpg'
     },
     {
       id: 'xpel',
       title: 'XPEL',
       text: 'ADVANCED VEHICLE ARMOR',
-      img: bmw
+      img: '/assets/serviceLinkImages/bmw.jpg'
     },
     {
       id: 'car-wash',
       title: 'CAR WASH',
       text: 'CLEANLINESS REIMAGINED',
-      img: blackPorsche
+      img: '/assets/serviceLinkImages/porsche_gts.jpg'
     }
   ]
 
