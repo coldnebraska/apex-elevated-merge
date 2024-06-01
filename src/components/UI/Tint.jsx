@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-import sunstrip from '../../assets/tintPackageImages/sunstrip.jpg'
-import front from '../../assets/tintPackageImages/front.jpg'
+import sunstrip from './sunstrip-cfda5ed4.jpg'
+import front from './front-16616d2a.jpg'
 import side from '../../assets/tintPackageImages/side.jpg'
 import deluxe from '../../assets/tintPackageImages/deluxe.jpg'
 import windshield from '../../assets/tintPackageImages/windshield.jpg'
