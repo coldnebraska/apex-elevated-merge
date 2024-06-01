@@ -68,7 +68,7 @@ export default function Detailing() {
                                 id: packageItem.id,
                                 text: packageItem.text,
                                 price: packageItem.price,
-                                image: '/assets/tintPackageImages/sunstrip.jpg',
+                                image: packageItem.image,
                                 extra: packageItem.extra,
                                 info: packageItem.info
                             })

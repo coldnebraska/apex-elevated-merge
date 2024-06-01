@@ -89,7 +89,7 @@ export default function Ppf() {
                                 id: packageItem.id,
                                 text: packageItem.text,
                                 price: packageItem.price,
-                                image: '/assets/tintPackageImages/sunstrip.jpg',
+                                image: packageItem.image,
                                 info: packageItem.info
                             })
                         }}>{packageItem.title}</h1>
