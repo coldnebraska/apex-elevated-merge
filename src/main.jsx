@@ -12,7 +12,6 @@ import ErrorPage from './pages/apex_pages/ErrorPage'
 import HomePage from './pages/apex_pages/HomePage'
 import ServicesPage from './pages/apex_pages/ServicesPage'
 import XpelPage from './pages/apex_pages/XpelPage'
-import PreschoolPage from './pages/apex_pages/PreschoolPage'
 import ContactPage from './pages/apex_pages/ContactPage'
 
 import ElevatedHomePage from './pages/elevated_pages/HomePage'
