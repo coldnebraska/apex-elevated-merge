@@ -7,10 +7,10 @@ export default function ServicesPage() {
         <h1>Navigate To</h1>
 
         <div>
-          <a href='/services/#tint' id='highlight'>Tint</a>
-          <a href='/services/#ppf' id='highlight'>PPF</a>
-          <a href='/services/#coating' id='highlight'>Coating</a>
-          <a href='/services/#detailing' id='highlight'>Detailing</a>
+          <a href='/services#tint' id='highlight'>Tint</a>
+          <a href='/services#ppf' id='highlight'>PPF</a>
+          <a href='/services#coating' id='highlight'>Coating</a>
+          <a href='/services#detailing' id='highlight'>Detailing</a>
         </div>
       </div>
 
