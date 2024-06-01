@@ -268,8 +268,18 @@ nav a:hover {
   width: 250px;
 }
 
+.left {
+  border-bottom: 1px solid black;
+}
+
+.left:last-child {
+  border-top: 1px solid black;
+  border-bottom: none;
+}
+
 .left h1:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .middle {
