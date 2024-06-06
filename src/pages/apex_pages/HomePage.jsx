@@ -23,7 +23,7 @@ export default function HomePage() {
       <div className='services-header'>
         <h1>SERVICES</h1>
         <h4>THE <span id='highlight'>PROTECTION</span> YOU NEED</h4>
-        <a href='/services'>GET FREE QUOTE</a>
+        <a href='/contact'>GET FREE QUOTE</a>
       </div>
 
       <ServiceLinks />
