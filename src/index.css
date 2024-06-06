@@ -150,6 +150,7 @@ nav a:hover {
   font-size: 300px;
   opacity: .1;
   margin-bottom: -80px;
+  z-index: -1;
 }
 
 .services-header h4 {
@@ -157,14 +158,14 @@ nav a:hover {
   margin-bottom: 2rem;
 }
 
-.services-header button {
+.services-header a {
   width: 50%;
   font-weight: bold;
   font-size: large;
-}
-
-.services-header button:hover {
-  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  color: black;
 }
 
 .service-links {
