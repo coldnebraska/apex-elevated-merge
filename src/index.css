@@ -346,6 +346,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .box {
@@ -358,9 +359,24 @@ nav a:hover {
   border-bottom: 1px solid grey;
 }
 
+.expandable:last-child {
+  border-bottom: none;
+}
+
 .expandable h6 {
   border-bottom: 1px solid grey;
   padding: 10px;
+  margin: 0;
+}
+
+.expandable h6:last-child {
+  border-bottom: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.expandable h6:hover {
+  cursor: pointer;
 }
 
 .expandable p {
