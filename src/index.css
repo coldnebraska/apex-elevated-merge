@@ -331,6 +331,11 @@ nav a:hover {
   margin-top: 2rem;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
+}
+
+#selection-btn:hover {
+  text-decoration: underline;
 }
 
 .page-divider {

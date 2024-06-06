@@ -237,5 +237,60 @@ export default function Faq({ section }) {
                     })}
                 </div>
             )
+        case 'xpel':
+            const xpelList = [
+                {
+                    id: 0,
+                    title: 'What is XPEL?',
+                    text: 'XPEL is a leading provider of automotive protection products, including window tinting films, paint protection films (PPF), and other car care solutions. Known for its high-quality and advanced technology, XPEL provides top-tier products designed to protect and enhance your vehicle’s appearance.'
+                },
+                {
+                    id: 1,
+                    title: 'What is XPEL window tint and how does it benefit me?',
+                    text: 'XPEL window tint is a premium window film that provides protection from harmful UV rays, reduces heat, enhances privacy, and adds a sleek aesthetic to your vehicle. It blocks up to 99% of UV rays, helping to keep your car’s interior cool and protected from sun damage.'
+                },
+                {
+                    id: 2,
+                    title: 'What is XPEL Paint Protection Film (PPF)?',
+                    text: 'XPEL PPF is a clear or colored polyurethane film that is applied to vehicles to protect them from scratches, dents, or swirls caused by road debris, rocks, bug droppings, and other environmental elements. It helps maintain your car’s pristine appearance for a longer period of time.'
+                },
+                {
+                    id: 3,
+                    title: `How long does XPEL's Products last?`,
+                    text: 'The longevity of XPEL products depends on various factors including the specific product, vehicle use, maintenance, and environmental conditions. However, XPEL products are designed to be highly durable. For instance, XPEL’s PPF and window tints come with a manufacturer’s warranty, providing peace of mind for your investment.'
+                },
+                {
+                    id: 4,
+                    title: 'How can I maintain my vehicle after XPEL product application?',
+                    text: 'After application of XPEL products, regular washing helps maintain the product’s appearance and longevity. You can wash your vehicle the same way you would do without the product. However, it’s recommended to wait a week before washing your vehicle after the product has been installed to allow it to fully cure. Always consult with your installer for detailed care instructions.'
+                }
+            ]
+            const [toggleXpel, setToggleXpel] = useState({
+                0: true
+            })
+
+            function toggleXpelFunction(id) {
+                setToggleXpel({
+                    ...toggleXpel,
+                    [id]: !toggleXpel[id]
+                })
+            }
+
+            return (
+                <div className="box">
+                    {xpelList.map((item) => {
+                        return (
+                            <div className="expandable">
+                                <h6 id='highlight' onClick={() => {
+                                    toggleXpelFunction(item.id)
+                                }}>
+                                {toggleXpel[item.id] ? <span id='expand-marker'>-</span> : <span id='expand-marker'>+</span>} {item.title}
+                                </h6>
+                                {toggleXpel[item.id] ? <p>{item.text}</p> : <></>}
+                            </div>
+                        )
+                    })}
+                </div>
+            )
     }
 }
