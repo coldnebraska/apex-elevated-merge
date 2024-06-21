@@ -56,7 +56,7 @@ export default function Detailing() {
                 {packageList.map((packageItem) => {
                     return (
                         <>
-                            <h1 key={packageItem.id} style={packageItem.title == 'Full Interior' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
+                            <h2 key={packageItem.id} style={packageItem.title == 'Full Interior' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
                                 document.getElementById(packageItem.id).style.color = 'var(--important-text)'
                                 setPreviousTitle(packageItem.id)
                                 
@@ -73,7 +73,7 @@ export default function Detailing() {
                                     extra: packageItem.extra,
                                     info: packageItem.info
                                 })
-                            }}>{packageItem.title}</h1>
+                            }}>{packageItem.title}</h2>
 
                             <div id="left-divider"></div>
                         </>
@@ -86,12 +86,12 @@ export default function Detailing() {
                 <img src={currentPackage.image} id="package-img" />
                 <p>{currentPackage.text}</p>
                 {currentPackage.extra ? 
-                    <h6 id="highlight">Service Includes</h6>
+                    <h6 id="highlight">Service Includes:</h6>
                 : <h6></h6>}
                 {currentPackage.extra ? 
                     currentPackage.extra.map((extra) => {
                         return (
-                            <p>{extra}</p>
+                            <li>{extra}</li>
                         )
                     })
                 : <p></p>}

@@ -20,7 +20,7 @@ export default function Nav() {
           <NavLink key={3} to="/services" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
-            Services+
+            Services
           </NavLink>,
           <NavLink key={4} to="/xpel" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
@@ -47,7 +47,7 @@ export default function Nav() {
           <NavLink key={8} to="/elevated/services" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""
           }>
-            Services+
+            Services
           </NavLink>,
           <NavLink key={9} to="/elevated/brands" className={({ isActive, isPending }) => 
             isPending ? "pending" : isActive ? "active" : ""

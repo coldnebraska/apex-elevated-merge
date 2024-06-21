@@ -11,7 +11,7 @@ export default function HomePage() {
           <h1 id='shadow'>ABOUT</h1>
           <h1>PROTECTING YOUR</h1>
           <h1 id='highlight'>INVESTMENT</h1>
-          <p>Welcome to Apex Auto Shield, where meticulous attention to detail meets cutting-edge technology in automotive care. Based in Leander, TX, we offer a comprehensive range of services, including window tinting, paint protection film, paint correction, ceramic coating, and detailing. With extensive expertise in the field, we are committed to enhancing the appearance and extending the life of your vehicle, using only the highest-quality products in the industry. Our customer-centric approach ensures an exceptional service experience, tailored to your unique needs. Join the Apex Auto Shield family and let us take your vehicle to the apex of aesthetic appeal and protection.</p>
+          <p>Welcome to Apex Auto Shield, where <span id='highlight'>meticulous attention to detail</span> meets cutting-edge technology in automotive care. Based in Leander, TX, we offer a comprehensive range of services, including window tinting, paint protection film, paint correction, ceramic coating, and detailing. With <span id='highlight'>extensive expertise</span> in the field, we are committed to enhancing the appearance and extending the life of your vehicle, using only the <span id='highlight'>highest-quality</span> products in the industry. Our customer-centric approach ensures an exceptional service experience, tailored to your unique needs. Join the Apex Auto Shield family and let us take your vehicle to the apex of aesthetic appeal and protection.</p>
         </div>
 
         <div className='sbs-img'>

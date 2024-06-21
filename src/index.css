@@ -21,14 +21,20 @@ body {
 .header {
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
   padding: 10px;
   border-bottom: 1px solid var(--important-text);
+  background-color: black;
 }
 
 .apex-logo,
 .elevated-logo {
-  width: 216px;
+  width: 200px;
   height: 80px;
+  padding: 10px;
 }
 
 nav {
@@ -37,6 +43,7 @@ nav {
   align-items: center;
   gap: 2rem;
   font-size: 24px;
+  font-weight: bold;
   width: 85%;
   margin: 1rem 7.5%;
 }
@@ -58,7 +65,7 @@ nav a:hover {
 /* *Homepage services display */
 .services-display {
   display: flex;
-  height: 900px;
+  height: 700px;
   border-bottom: 1px solid var(--important-text);
 }
 
@@ -75,7 +82,7 @@ nav a:hover {
 }
 
 .blur img {
-  height: 900px;
+  height: 700px;
   width: 100%;
   transform: scale(1.1);
   opacity: .75;
@@ -159,13 +166,14 @@ nav a:hover {
 }
 
 .services-header a {
-  width: 50%;
+  padding: 5px 10px;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
   background-color: white;
   text-align: center;
   color: black;
+  border-radius: 5px;
 }
 
 .service-links {
@@ -184,12 +192,14 @@ nav a:hover {
   display: flex;
   justify-content: center;
   transition: .3s;
+  color: white;
 }
 
 .top-img img,
 .bottom-img img {
   height: 400px;
   width: 100%;
+  opacity: .5;
 }
 
 .text-overlay {
@@ -214,6 +224,7 @@ nav a:hover {
   text-decoration: none;
   padding: 1rem;
   font-size: larger;
+  font-weight: bold;
 }
 
 .service-page-nav a:hover {
@@ -245,7 +256,7 @@ nav a:hover {
 .service-selector {
   display: flex;
   gap: 2rem;
-  margin: 2rem 5%;
+  margin: 2rem 1rem;
   height: 550px;
 }
 
@@ -259,16 +270,20 @@ nav a:hover {
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 550px;
+  width: 300px;
 }
 
 .left {
   background-color: rgb(45, 45, 45);
-  width: 250px;
 }
 
-.left h1 {
+.left:hover {
+  cursor: pointer;
+}
+
+.left h2 {
   padding: 0 10px;
   margin: 0;
 }
@@ -290,6 +305,10 @@ nav a:hover {
 
 .middle {
   width: 800px;
+}
+
+.middle li {
+  padding: 2px 0;
 }
 
 .right {
@@ -315,6 +334,10 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.xpel-header img {
+  width: 400px;
 }
 
 .xpel-header p {
@@ -343,8 +366,12 @@ nav a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 1rem 0;
   margin: 3rem 0;
+}
+
+.page-divider img {
+  width: 500px;
 }
 
 .learn-more {
@@ -372,6 +399,7 @@ nav a:hover {
   border-bottom: 1px solid grey;
   padding: 10px;
   margin: 0;
+  font-size: large;
 }
 
 .expandable h6:last-child {
@@ -404,7 +432,8 @@ nav a:hover {
 }
 
 #z-index {
-  z-index: 10;
+  z-index: 5;
+  width: 400px;
 }
 
 .icons {
@@ -508,8 +537,9 @@ nav a:hover {
 }
 
 .footer img {
-  width: 216px;
+  width: 200px;
   height: 80px;
+  padding: 10px;
 }
 
 .footer-content {
@@ -525,6 +555,10 @@ nav a:hover {
 
 .footer-col h4{
   margin: 2rem 0;
+}
+
+.footer-col h6 {
+  margin: 0;
 }
 
 .footer-col img {

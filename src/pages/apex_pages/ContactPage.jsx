@@ -3,7 +3,6 @@ import { Icon } from "@iconify/react"
 export default function ContactPage() {
   return (
     <div className="contact-page">
-      <h1 id='shadow-main'>C O N T A C T</h1>
       <div className="side-by-side">
         <img src='/assets/contactImages/cadillac.png' id='z-index' />
 

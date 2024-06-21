@@ -61,7 +61,7 @@ export default function Ppf() {
                 {packageList.map((packageItem) => {
                     return (
                         <>
-                            <h1 key={packageItem.id} style={packageItem.title == 'Sunstrip' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
+                            <h2 key={packageItem.id} style={packageItem.title == 'Sunstrip' ? {color: 'var(--important-text)'} : {}} id={packageItem.id} onClick={() => {
                                 document.getElementById(packageItem.id).style.color = 'var(--important-text)'
                                 setPreviousTitle(packageItem.id)
                                 
@@ -77,7 +77,7 @@ export default function Ppf() {
                                     image: packageItem.image,
                                     info: packageItem.info
                                 })
-                            }}>{packageItem.title}</h1>
+                            }}>{packageItem.title}</h2>
                             
                             <div id="left-divider"></div>
                         </>
