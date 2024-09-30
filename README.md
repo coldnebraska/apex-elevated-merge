@@ -11,6 +11,11 @@ With the help of a UX/UI designer, I used React to redesigned the main website o
 [Credits](#credits) 
 
 ## Images
+![alt text](public/assets/readmeImages/homepage.png)  
+
+![alt text](public/assets/readmeImages/services.png)  
+
+![alt text](public/assets/readmeImages/xpel.png)
 
 ## Features
 ### React Router
